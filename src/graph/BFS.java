@@ -1,6 +1,6 @@
-package queue;
+package graph;
 
-public class Main {
+public class BFS {
 
   public static void main(String[] args) {
 

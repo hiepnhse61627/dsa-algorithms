@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class HashTable {
 
-  private final int size = 7;
+  private static final int size = 7;
   private final Node[] dataMap;
 
   static class Node {

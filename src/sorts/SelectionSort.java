@@ -10,6 +10,7 @@ public class SelectionSort {
     selectionSort(arr);
 
     System.out.println(Arrays.toString(arr));
+
   }
 
   private static void selectionSort(int[] arr) {

@@ -12,23 +12,23 @@ import java.util.stream.Collectors;
 public class Main {
 
   public static void main(String[] args) {
-//    HashTable myHashTable = new HashTable();
-//
-//    myHashTable.set("nails", 100);
-//    myHashTable.set("tile", 50);
-//    myHashTable.set("lumber", 80);
-//
-//    myHashTable.set("bolts", 200);
-//    myHashTable.set("screws", 140);
-//
-//    myHashTable.printTable();
-//
-//    System.out.println(myHashTable.get("lumber"));
-//    System.out.println(myHashTable.get("bolts"));
-//    System.out.println(myHashTable.get("invalid"));
-//
-//    System.out.println(myHashTable.keys());
-//
+    HashTable myHashTable = new HashTable();
+
+    myHashTable.set("nails", 100);
+    myHashTable.set("tile", 50);
+    myHashTable.set("lumber", 80);
+
+    myHashTable.set("bolts", 200);
+    myHashTable.set("screws", 140);
+
+    myHashTable.printTable();
+
+    System.out.println(myHashTable.get("lumber"));
+    System.out.println(myHashTable.get("bolts"));
+    System.out.println(myHashTable.get("invalid"));
+
+    System.out.println(myHashTable.keys());
+
 //    int[] array1 = {1, 3, 5};
 //    int[] array2 = {2, 4, 5};
 //
@@ -84,15 +84,15 @@ public class Main {
 //      System.out.println(Arrays.toString(pair));
 //    }
 
-    testLongestConsecutiveSequence("Consecutive Integers", new int[] {1, 2, 3, 4, 5}, 5);
-    testLongestConsecutiveSequence("No Sequence", new int[] {1, 3, 5, 7, 9}, 1);
-    testLongestConsecutiveSequence("Duplicates", new int[] {1, 2, 2, 3, 4}, 4);
-    testLongestConsecutiveSequence("Negative Numbers", new int[] {1, 0, -1, -2, -3}, 5);
-    testLongestConsecutiveSequence("Empty Array", new int[] {}, 0);
-    testLongestConsecutiveSequence("Multiple Sequences", new int[] {1, 2, 3, 10, 11, 12, 13}, 4);
-    testLongestConsecutiveSequence("Unordered Elements", new int[] {5, 1, 3, 4, 2}, 5);
-    testLongestConsecutiveSequence("Single Element", new int[] {1}, 1);
-    testLongestConsecutiveSequence("All Identical Elements", new int[] {2, 2, 2, 2, 2}, 1);
+//    testLongestConsecutiveSequence("Consecutive Integers", new int[] {1, 2, 3, 4, 5}, 5);
+//    testLongestConsecutiveSequence("No Sequence", new int[] {1, 3, 5, 7, 9}, 1);
+//    testLongestConsecutiveSequence("Duplicates", new int[] {1, 2, 2, 3, 4}, 4);
+//    testLongestConsecutiveSequence("Negative Numbers", new int[] {1, 0, -1, -2, -3}, 5);
+//    testLongestConsecutiveSequence("Empty Array", new int[] {}, 0);
+//    testLongestConsecutiveSequence("Multiple Sequences", new int[] {1, 2, 3, 10, 11, 12, 13}, 4);
+//    testLongestConsecutiveSequence("Unordered Elements", new int[] {5, 1, 3, 4, 2}, 5);
+//    testLongestConsecutiveSequence("Single Element", new int[] {1}, 1);
+//    testLongestConsecutiveSequence("All Identical Elements", new int[] {2, 2, 2, 2, 2}, 1);
   }
 
   public static boolean itemInCommon(int[] array1, int[] array2) {
