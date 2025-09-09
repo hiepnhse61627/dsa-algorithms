@@ -1,4 +1,4 @@
-package codility;
+package practice;
 
 public class NAB03 {
 
